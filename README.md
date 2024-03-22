@@ -195,4 +195,12 @@ As seen in the previous code, you can actually give labels to instruction like t
 While labels are convenient for programmers, it decreases the efficiency of executing a program. 
 So you need to implement a symbol table that will translate the label into an instruction address.  Every time you want to execute the code and you encounter a label you will look at the symbol table and jump directly to the instruction address instead of traversing the whole list of statements looking for the label. 
 
+Example output:
+![image](/images/1.png)
+![image](/images/2.png)
+![image](/images/3.png)
+![image](/images/4.png)
+![image](/images/5.png)
+![image](/images/6.png)
+![image](/images/7.png) 
 
